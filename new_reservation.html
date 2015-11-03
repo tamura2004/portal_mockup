@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new_reservation_form</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/css/user.css">
+    <link rel="stylesheet" href="assets/bootstrap/fonts/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button><a class="navbar-brand navbar-link" href="top.html"><span class="glyphicon glyphicon-phone-alt"></span>もしもしオープン基盤</a></div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">mitsuhiro.tamura <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">First Item</a></li>
+                            <li><a href="#">Second Item</a></li>
+                            <li><a href="#">Third Item</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#"><span class="glyphicon glyphicon-plane"></span>性能改善 <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">First Item</a></li>
+                            <li><a href="#">Second Item</a></li>
+                            <li><a href="#">Third Item</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#"><span class="glyphicon glyphicon-education"></span>非機能設計<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">First Item</a></li>
+                            <li><a href="#">Second Item</a></li>
+                            <li><a href="#">Third Item</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#"><span class="glyphicon glyphicon-fire"></span>障害 <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">First Item</a></li>
+                            <li><a href="#">Second Item</a></li>
+                            <li><a href="#">Third Item</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right bootstrap-form-with-validation">
+                    <div class="form-group">
+                        <label class="control-label sr-only" for="email-input">Email </label>
+                        <div class="input-group">
+                            <div class="input-group-addon"><span>検索 </span></div>
+                            <input class="form-control" type="text">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label sr-only" for="password-input">Password </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a><span>ホーム </span></a></li>
+            <li><a><span>性能改善 </span></a></li>
+            <li><a><span>dynaTrace </span></a></li>
+            <li><a><span>利用予約 </span></a></li>
+        </ol>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-2">
+                <div class="well">
+                    <h2>dynaTrace利用予約 </h2>
+                    <hr>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="control-label col-md-3 control-label">利用月 </label>
+                            <div class="col-sm-9">
+                                <select class="form-control">
+                                    <optgroup label="This is a group">
+                                        <option value="12" selected="">This is item 1</option>
+                                        <option value="13">2015-11</option>
+                                        <option value="13">2015-12</option>
+                                        <option value="13">2016-01</option>
+                                        <option value="13">2016-02</option>
+                                        <option value="13">2016-03</option>
+                                        <option value="13">2016-04</option>
+                                        <option value="13">2016-05</option>
+                                        <option value="13">2016-06</option>
+                                        <option value="13">2016-07</option>
+                                        <option value="13">2016-08</option>
+                                        <option value="13">2016-09</option>
+                                        <option value="13">2016-10</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 control-label">システム名 </label>
+                            <div class="col-sm-9">
+                                <select class="form-control">
+                                    <optgroup label="This is a group">
+                                        <option value="12" selected="">This is item 1</option>
+                                        <option value="13">This is item 2</option>
+                                        <option value="14">This is item 3</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-9 col-md-offset-3">
+                                <input type="checkbox">
+                                <label class="control-label">システムを新規に登録する </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 control-label">システム番号 </label>
+                            <div class="col-sm-9">
+                                <input class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 control-label">システム名 </label>
+                            <div class="col-sm-9">
+                                <input class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 control-label">OS </label>
+                            <div class="col-sm-9">
+                                <select class="form-control">
+                                    <optgroup label="This is a group">
+                                        <option value="12" selected="">This is item 1</option>
+                                        <option value="13">This is item 2</option>
+                                        <option value="14">This is item 3</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 control-label">Java </label>
+                            <div class="col-sm-9">
+                                <select class="form-control">
+                                    <optgroup label="This is a group">
+                                        <option value="12" selected="">This is item 1</option>
+                                        <option value="13">This is item 2</option>
+                                        <option value="14">This is item 3</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 control-label">その他連絡事項 </label>
+                            <div class="col-sm-9">
+                                <textarea class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-3 col-md-9">
+                                <a href="reservations.html" class="btn btn-primary">登録</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <h2>予約状況 </h2>
+                    <hr>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>利用年月</th>
+                                    <th>ライセンス１ </th>
+                                    <th>ライセンス２ </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2015-10 </td>
+                                    <td>住宅ローン事... </td>
+                                    <td><a href="#">空き </a></td>
+                                </tr>
+                                <tr>
+                                    <td>2015-11 </td>
+                                    <td>住宅ローン事... </td>
+                                    <td><a href="#">空き </a></td>
+                                </tr>
+                                <tr>
+                                    <td>2015-12 </td>
+                                    <td>住宅ローン事... </td>
+                                    <td><a href="#">空き </a></td>
+                                </tr>
+                                <tr>
+                                    <td>2016-01 </td>
+                                    <td>住宅ローン事... </td>
+                                    <td><a href="#">空き </a></td>
+                                </tr>
+                                <tr>
+                                    <td>2015-10 </td>
+                                    <td>住宅ローン事... </td>
+                                    <td><a href="#">空き </a></td>
+                                </tr>
+                                <tr>
+                                    <td>2015-10 </td>
+                                    <td>住宅ローン事... </td>
+                                    <td><a href="#">空き </a></td>
+                                </tr>
+                                <tr>
+                                    <td>2015-10 </td>
+                                    <td>住宅ローン事... </td>
+                                    <td><a href="#">空き </a></td>
+                                </tr>
+                                <tr>
+                                    <td>2015-10 </td>
+                                    <td>住宅ローン事... </td>
+                                    <td><a href="#">空き </a></td>
+                                </tr>
+                                <tr>
+                                    <td>2015-10 </td>
+                                    <td>住宅ローン事... </td>
+                                    <td><a href="#">空き </a></td>
+                                </tr>
+                                <tr>
+                                    <td>2015-10 </td>
+                                    <td>住宅ローン事... </td>
+                                    <td><a href="#">空き </a></td>
+                                </tr>
+                                <tr>
+                                    <td>2015-10 </td>
+                                    <td>住宅ローン事... </td>
+                                    <td><a href="#">空き </a></td>
+                                </tr>
+                                <tr>
+                                    <td>2015-10 </td>
+                                    <td>住宅ローン事... </td>
+                                    <td><a href="#">空き </a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 footer-navigation">
+                <h3><a href="#">Company<span>logo </span></a></h3>
+                <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Blog</a><strong> · </strong><a href="#">Pricing</a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p>
+                <p class="company-name">Company Name © 2015 </p>
+            </div>
+            <div class="col-md-4 col-sm-6 footer-contacts">
+                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                    <p><span class="new-line-span">21 Revolution Street</span> Paris, France</p>
+                </div>
+                <div><span class="fa fa-phone footer-contacts-icon"></span>
+                    <p class="footer-center-info email text-left"> +1 555 123456</p>
+                </div>
+                <div><span class="fa fa-envelope footer-contacts-icon"></span>
+                    <p> <a href="#" target="_blank">support@company.com</a></p>
+                </div>
+            </div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="col-md-4 footer-about">
+                <h4>About the company</h4>
+                <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+                </p>
+                <div class="social-links social-icons"><a href="#"><span class="fa fa-facebook"></span></a><a href="#"><span class="fa fa-twitter"></span></a><a href="#"><span class="fa fa-linkedin"></span></a><a href="#"><span class="fa fa-github"></span></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
